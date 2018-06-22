@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8"/>
+		<script src="video_flow.js"></script>
+		<link rel="stylesheet" href="video_flow.css"/>
+    <title> CAMERA OPERATOR WEB APP </title>
+
+  </head>
+
+	<body onload="main()">
+			<h1 id="title"> TV OPERATOR <br> <span id="subtitle">BY Jaime Garcia </span> </h1>
+
+		<button id="play" type="button" onclick="play()"> PLAY </button>
+		<button id="stop" type="button" onclick="stop()"> STOP </button>
+		<button id="rewind" type="button" onclick="rewind()"> REWIND </button>
+		<button id="mute" type="button" onclick="mutemain()"> MUTE </button>
+		<button id="more" type="button" onclick="moresound()"> SOUND+ </button>
+		<button id="less" type="button" onclick="lesssound()"> SOUND- </button>
+		<button id="nomute" type="button" onclick="nomute()"> MUTE OFF </button>
+		<button id="loop" type="button" onclick="loopon()"> LOOP ON </button>
+		<button id="loopoff" type="button" onclick="loopoff()"> LOOP Off </button>
+
+		<video id="mainVideo" onclick="zoominorout(this)">
+			<source id="sourcemain" src="simpsons.mp4" type="video/mp4">
+		</video>
+		<p id="titlevideo"> mAIN CAmERA </p>
+		<p id="data1"> loop : <span id="looptime">off</span> &nbsp;&nbsp; sound : <span id="soundmain"></span>
+			&nbsp;&nbsp;&nbsp;&nbsp; volume : <span id="volume"> </span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; actual time : <span id="timemain"> </span></p>
+		<video id="toSelect1" onclick="change(this)" onmouseover="activeSound(this)" onmouseout="muteSound(this)">
+			<source id="source1" src="zidane.mp4" type="video/mp4">
+		</video>
+		<p id="data2"> CAMERA 2 <br> actual time : <span id="time1"> </span> <br> sound : <span id="sound1"> </span><br> </p>
+		<video id="toSelect2" onclick="change(this)" onmouseover="activeSound(this)" onmouseout="muteSound(this)">
+			<source id="source2" src="slow.mp4" type="video/mp4">
+		</video>
+		<p id="data3"> CAMERA 3 <br> actual time : <span id="time2"> </span> <br> sound : <span id="sound2"> </span><br> </p>
+		<video id="toSelect3" onclick="change(this)" onmouseover="activeSound(this)" onmouseout="muteSound(this)">
+			<source id="source3" src="jordan.mp4" type="video/mp4">
+		</video>
+		<p id="data4"> CAMERA 4 <br> actual time : <span id="time3"> </span> <br> sound : <span id="sound3"> </span><br> </p>
+	</body>
+
+</html>

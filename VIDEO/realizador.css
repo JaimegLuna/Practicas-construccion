@@ -1,0 +1,292 @@
+/* 
+    Stylesheet code made by Felipe Sandoval.
+*/
+
+@font-face{
+    font-family: tech;
+    src: url("technoid.TTF");
+}
+
+@font-face{
+  font-family: main;
+  src: url("pricedown.ttf");
+}
+
+h1#title{
+	position: absolute;
+	left: 30px;
+	font-family: tech;
+	font-size: 55px;
+	cursor: default;
+	text-shadow: 2px 2px #ffffff;
+}
+
+span#subtitle{
+	font-size: 23px;
+	position: absolute;
+	left: 160px;
+}
+
+body{
+	background-image: url(background.jpg);
+}
+
+video#mainVideo{
+	position: absolute;
+	top: 60px;
+	left: 600px;
+	width: 600px;
+	cursor: zoom-in;
+	border: 5px groove #427df4;
+}
+
+p#data1{
+	cursor: default;
+	font-family: main;
+	font-size: 20px;
+	color: #000000;
+	position: absolute;
+	top: 500px;
+	left: 620px;
+	text-shadow: 2px 2px 5px #ffffff;
+}
+
+video#toSelect1{
+	width: 150px;
+	position: absolute;
+	top: 150px;
+	left: 60px;
+	cursor: progress;
+}
+
+p#data2{
+	cursor: default;
+	font-family: main;
+	font-size: 20px;
+	color: black;
+	position: absolute;
+	top: 130px;
+	left: 250px;
+	border-radius: 1;
+	text-shadow: 2px 2px #ffffff;
+}
+
+video#toSelect2{
+	width: 150px;
+	position: absolute;
+	top: 300px;
+	left: 60px;
+	cursor: progress;
+}
+
+p#data3{
+	cursor: default;
+	font-family: main;
+	font-size: 20px;
+	color: black;
+	position: absolute;
+	top: 280px;
+	left: 250px;
+	text-shadow: 2px 2px #ffffff;
+}
+
+video#toSelect3{
+	width: 150px;
+	position: absolute;
+	top: 430px;
+	left: 60px;
+	cursor: progress;
+}
+
+p#data4{
+	cursor: default;
+	font-family: main;
+	font-size: 20px;
+	color: black;
+	position: absolute;
+	top: 410px;
+	left: 250px;
+	text-shadow: 2px 2px #ffffff;
+}
+
+p#titlevideo{
+	cursor: default;
+	font-family: main;
+	font-size: 20px;
+	color: #000000;
+	position: absolute;
+	top: 10px;
+	left: 850px;
+	text-shadow: 2px 2px 5px #FFFFFF;
+}
+
+button#play{
+	font-family: tech;
+	border-width: 4px;
+	padding: 5px 15px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	background-color: #338c33;
+}
+
+button#stop{	
+	font-family: tech;
+	border-width: 4px;
+	padding: 5px 15px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	bottom: 10px;
+	left: 160px;
+	background-color: #ff6666;
+}
+
+button#rewind{	
+	font-family: tech;
+	border-width: 4px;
+	padding: 5px 5px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	bottom: 10px;
+	left: 300px;
+	background-color: #000000;
+}
+
+button#mute{	
+	font-family: tech;
+	border-width: 4px;
+	padding: 5px 15px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+	position: absolute;
+	bottom: 10px;
+	left: 440px;
+	background-color: #FFFFFF;
+}
+
+button#nomute{	
+	font-family: tech;
+	border-width: 4px;
+	padding: 8px 2px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	bottom: 10px;
+	left: 580px;
+	background-color: #000000;
+}
+
+button#more{	
+	font-family: tech;
+	border-width: 4px;
+	padding: 8px 5px;
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	cursor: pointer;
+	position: absolute;
+	bottom: 10px;
+	left: 720px;
+	background-color: #FFFFFF;
+}
+
+button#less{	
+	font-family: tech;
+	border-width: 4px;
+	padding: 8px 5px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	bottom: 10px;
+	left: 840px;
+	background-color: #000000;
+}
+
+button#loop{	
+	font-family: tech;
+	border-width: 4px;
+	padding: 8px 5px;
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	cursor: pointer;
+	position: absolute;
+	bottom: 10px;
+	left: 960px;
+	background-color: #1a64db;
+}
+
+button#loopoff{	
+	font-family: tech;
+	border-width: 4px;
+	padding: 8px 5px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	bottom: 10px;
+	left: 1100px;
+	background-color: #000000;
+}
+
+button#play:hover {
+  background-color: #e5de59;
+  color: black;
+}
+
+button#stop:hover {
+  background-color: #e5de59;
+  color: black;
+}
+
+button#rewind:hover {
+  background-color: #e5de59;
+  color: black;
+}
+
+button#mute:hover {
+  background-color: #e5de59;
+  color: black;
+}
+
+button#more:hover {
+  background-color: #e5de59;
+  color: black;
+}
+
+button#less:hover {
+  background-color: #e5de59;
+  color: black;
+}
+
+button#nomute:hover {
+  background-color: #e5de59;
+  color: black;
+}
+
+button#loop:hover {
+  background-color: #e5de59;
+  color: black;
+}
+
+button#loopoff:hover {
+  background-color: #e5de59;
+  color: black;
+}
